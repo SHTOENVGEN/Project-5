@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none !important;
+}
+
+html {
+    background: url(./andie-gomez-acebo-sEq4onJnWrI-unsplash.jpg) no-repeat left center fixed;
+    background-size: contain;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    color: aquamarine;
+}
+
+body {
+    border: 2px solid red;
+    height: 100vh;
+}
+
+.content_body {
+    height: 35rem;
+    border: 2px solid yellow;
+    display: flex;
+}
+
+/* header */
+.spacer {
+    border: 2px solid blue;
+    width: 40rem;
+}
+
+.header {
+    border: 2px solid violet;
+    height: 4rem;
+}
+
+nav {
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+}
+
+nav a {
+    border: 2px solid navy;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 2rem;
+    background-color: rgba(245,245,245,0.5);
+}
+
+/* form */
+.form_spacer {
+    height: 100%;
+    width: 300px;
+    border: 2px solid orange;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    border: 2px solid pink;
+    padding: 5px;
+    height: 500px;
+    width: 250px;
+    background-color: rgba(245,245,245,0.5);
+}
